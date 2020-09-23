@@ -1,0 +1,9 @@
+﻿using System;
+
+namespace MediatR
+{
+    public interface IEntity
+    {
+        public Guid Id { get; set; }
+    }
+}
